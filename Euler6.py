@@ -1,0 +1,11 @@
+sumsquare=1
+num=2
+squaresum=1
+final=0
+while(num<=100):
+    sumsquare=num**2+sumsquare
+    squaresum=squaresum+num
+    num=num+1
+squaresum=squaresum**2
+final=squaresum-sumsquare
+print(final)
